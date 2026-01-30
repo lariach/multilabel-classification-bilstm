@@ -1,0 +1,13 @@
+# Abaikan model raksasa
+04_models/*.h5
+04_models/*.keras
+04_models/*.pkl
+04_models/*.pt
+
+# Abaikan folder tuning (jika ada lagi nanti)
+tuning_dir/
+
+# Abaikan file sampah sistem
+.DS_Store
+__pycache__/
+*.pyc

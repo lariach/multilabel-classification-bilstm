@@ -1,0 +1,24 @@
+# Data Processing & Analysis
+pandas
+numpy
+openpyxl
+
+# Machine Learning & Evaluasi
+scikit-learn
+scikit-multilearn
+imbalanced-learn
+
+# Deep Learning Framework
+tensorflow
+
+# Text Preprocessing & NLP
+Sastrawi
+nltk
+regex
+
+# Visualisasi
+matplotlib
+seaborn
+
+# Progress Bar & Utilities
+tqdm
