@@ -1,4 +1,4 @@
-# Klasifikasi Multilabel Berita menggunakan BiLSTM
+# Klasifikasi Multilabel Berita Online menggunakan BiLSTM
 
 Repositori ini berisi implementasi kode dan data untuk penelitian skripsi mengenai klasifikasi teks multilabel pada berita menggunakan model **Bidirectional Long Short-Term Memory (BiLSTM)**.
 
@@ -26,7 +26,7 @@ Penyusunan folder telah diurutkan berdasarkan alur kerja penelitian (pipeline) u
 
 Penelitian ini mengevaluasi model BiLSTM melalui 4 skenario utama guna menguji ketangguhan model:
 
-| No | Eksperimen | Dataset | Metode Validasi | Deskripsi |
+| No | Experiment | Dataset | Metode Validasi | Deskripsi |
 |:---:|---|---|---|---|
 | 1 | **Experiment 1** | Dataset 1 | Hold-out (80:20) | Baseline model pada dataset original. |
 | 2 | **Experiment 2** | Dataset 2 | Hold-out (80:20) | Pengujian pada dataset variasi ke-2. |
@@ -58,13 +58,12 @@ streamlit run 05_app/demo.py
 
 Berdasarkan pengujian yang telah dilakukan terhadap empat skenario eksperimen, berikut adalah ringkasan performa model terbaik:
 
-| Metrik Evaluasi | Skor Akurasi |
-| :--- | :---: |
-| **Model Terbaik** | Eksperimen [Isi No] |
-| **F1-Score** | 0.XX |
-| **Hamming Loss** | 0.XX |
-| **Precision** | 0.XX |
-| **Recall** | 0.XX |
+| Experiment | **Subset Accuracy**  | **Hamming Loss** | 
+| :--- | :---: | :---: |
+| 1 | 0.7512 | 0.0962 |
+| 2 | 0.6907 | 0.1168 |
+| 3 | 0.9330 | 0.0233 |
+| 4 | 0.9652 | 0.0116 |
 
 > **Catatan:** Hasil detail untuk setiap *fold* pada K-Fold Cross Validation dapat dilihat langsung di dalam Notebook pada folder `03_experiments/`.
 
